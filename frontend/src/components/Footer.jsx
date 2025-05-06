@@ -14,7 +14,7 @@ export default function Footer() {
       <div className='w-11/12 mx-auto grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-start justify-between mt-5 py-16'>
 
               {/* first footer-col */}
-           <div className='space-y-6 border-b-3 border-orange-400'>
+           <div className='space-y-6 border-b-3 border-orange-400 h-70'>
 
              <p><img src={syronImg} alt="syron logo" className='text-white' height={110} width={110} /></p>
 
@@ -22,7 +22,7 @@ export default function Footer() {
 
            </div>
                      {/* 2nd footer-col */}
-           <div className='flex flex-col items-start space-y-3 border-b-3 border-blue-400 '>
+           <div className='flex flex-col items-start space-y-3 border-b-3 border-blue-400 h-70'>
             
             <div className='flex items-center ml-15'>
             <span class="relative flex size-2">
@@ -39,7 +39,7 @@ export default function Footer() {
             
             </div>
                     {/* 3rd footer-col */}
-           <div className='flex flex-col items-start  space-y-3 border-b-3 border-orange-400'>
+           <div className='flex flex-col items-start  space-y-3 border-b-3 border-orange-400 h-70'>
            
            <div className='flex items-center  '>
             <span class="relative flex size-2">
@@ -79,7 +79,7 @@ export default function Footer() {
 
            </div>
               {/* 4th footer-col */}         
-           <div className='flex flex-col items-start space-y-4 border-b-3 border-green-400'>
+           <div className='flex flex-col items-start space-y-4 border-b-3 border-green-400 h-70'>
 
            <div className='flex items-center  '>
             <span class="relative flex size-2">

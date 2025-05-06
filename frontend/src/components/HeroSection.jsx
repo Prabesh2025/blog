@@ -24,7 +24,7 @@ export default function HeroSection({blogs}) {
         id="hero"
         className="border-2 border-gray-100 w-11/12 mx-auto rounded-2xl border-l-amber-500 border-l-6 bg-gray-50 group mb-2"
       >
-        <div className=" w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-12  ">
+        <NavLink  to={`/blog-read/${item._id}`} className=" w-11/12 mx-auto grid lg:flex gap-8 border-b  border-dotted border-gray-400  py-12  ">
           <div>
             <img
               src={ballImg}
@@ -33,7 +33,7 @@ export default function HeroSection({blogs}) {
             />
           </div>
 
-          <div className="space-y-4">
+          <div   className="space-y-4">
             <NavLink
               to={`/blog-read/${item._id}`}
               className="flex flex-col font-semibold text-2xl border-b-3 border-white hover:text-pink-600  hover:border-pink-600"
@@ -48,7 +48,7 @@ export default function HeroSection({blogs}) {
               {item.description}
             </p>
           </div>
-        </div>
+        </NavLink>
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center ml-20 gap-4">
             <p>#Lifestyle</p>
