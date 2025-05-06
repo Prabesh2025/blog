@@ -13,7 +13,7 @@ export default function BlogReadPage() {
 
     const fetchSingleBlog = async()=>{
         try {
-            const response = await axios.get(`http://localhost:4000/get-single-blog/${id}`);
+            const response = await axios.get(`https://blog-gr7a.onrender.com/get-single-blog/${id}`);
             // console.log(response.data.data);
             setSingleBlog(response.data.data);
 

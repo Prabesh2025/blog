@@ -34,7 +34,7 @@ export default function App() {
 
  const fetchALLFunction = async () => {
   try {
-    const response = await axios.get("http://localhost:4000/get-all-blogs");
+    const response = await axios.get("https://blog-gr7a.onrender.com/get-all-blogs");
     console.log(response.data.data);
 
     setBlogs(response.data.data);
